@@ -12,12 +12,12 @@
  */
 
 add_action(
-    'init',
-    function() {
-        if ( !get_role( 'wholesale_customer' ) ) {
-            $capabilities = get_role('customer')->capabilities;
-            
-            add_role( 'wholesale_customer', 'Wholesale Customer', $capabilities );
-        }
-    }
+	'init',
+	function () {
+		if ( ! get_role( 'wholesale_customer' ) ) {
+			$capabilities = get_role( 'customer' )->capabilities;
+
+			add_role( 'wholesale_customer', 'Wholesale Customer', $capabilities );
+		}
+	}
 );
