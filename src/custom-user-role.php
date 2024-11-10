@@ -6,7 +6,7 @@
  * If doesn't exists it will create one
  *
  * @package WP Code Snippets
- * @version 1.0.0
+ * @version 1.0.1
  * @author Bayazid Hasan <bayazid.freelancer@gmail.com>
  * @link
  */
