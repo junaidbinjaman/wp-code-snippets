@@ -5,13 +5,13 @@
  * Hides the admin bar for all the users except administrators.
  *
  * @package WP Code Snippets
- * @version 1.0.0
+ * @version 1.0.1
  * @author Junaid Bin Jaman <junaid@allnextver.com>
  * @link
  */
 
 add_action(
-	'after_setup_theme',
+	'init',
 	function () {
 		$current_user = wp_get_current_user();
 
